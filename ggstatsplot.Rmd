@@ -41,7 +41,7 @@ knitr::write_bib(c(
 
 # Background
 
-In this short tutorial, I am showing the usage of ggstatsplot for embeddin statistical values on ggplot graphics.
+In this short tutorial, I am showing the usage of ggstatsplot for embedd statistical values on ggplot graphics.
 
 ## ggbetweenstats
 
