@@ -70,7 +70,7 @@ ggbetweenstats(data = movies_long,
 
 ## ggwithinstats
 
-Thame can also be done for the ggwithinstats as follows:
+Theame can also be done for the ggwithinstats as follows:
 
 ```{r}
 ggwithinstats(data = WRS2::WineTasting, Wine, Taste)
