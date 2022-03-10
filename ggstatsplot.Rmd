@@ -49,7 +49,7 @@ In this short tutorial, I am showing the usage of ggstatsplot for annotating sta
 ggbetweenstats(data = movies_long, x = mpaa, y = rating)
 ```
 
-The plot can a be improved to give more information such as:
+The plot can  be improved to give more information such as:
 
 ```{r}
 ggbetweenstats(data = movies_long, x = mpaa, y = rating,
