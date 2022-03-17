@@ -153,7 +153,7 @@ grouped_ggpiestats(mtcars, x = cyl, grouping.var = am)
 ## ggbetweenstats customized
 
 ```{r}
-ggbetweenstats(movies_long, # grabs the
+ggbetweenstats(movies_long, # grabs t
                mpaa, rating, 
               ggtheme = hrbrthemes::theme_ipsum_tw(),
               palettete = "Darjeeling2")
