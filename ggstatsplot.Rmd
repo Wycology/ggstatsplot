@@ -18,7 +18,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, cache = TRUE)
 ```
 
-
 ```{r libs, echo=FALSE, warning=FALSE, message=FALSE, include=FALSE}
 packages <- c("base",
               'knitr',
@@ -39,7 +38,7 @@ knitr::write_bib(c(
 ), 'bib/packages.bib')
 ```
 
-# Background
+# Project Background
 
 In this short tutorial, I am showing the usage of ggstatsplot for annotating statistical values on ggplot graphics.
 
