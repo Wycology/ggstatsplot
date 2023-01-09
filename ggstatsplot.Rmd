@@ -69,7 +69,7 @@ ggbetweenstats(data = movies_long,
 
 ## ggwithinstats
 
-The same can also be done for the ggwithinstats as follows:
+The same can also be done for the `ggwithinstats` as follows:
 
 ```{r}
 ggwithinstats(data = WRS2::WineTasting, Wine, Taste)
