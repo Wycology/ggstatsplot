@@ -158,5 +158,6 @@ ggbetweenstats(movies_long,
               palettete = "Darjeeling2")
 ```
 
+That seemed a nice way to work around visualizing statistics using the ggplot graphics.
 
 # References
