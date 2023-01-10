@@ -137,6 +137,7 @@ ggbarstats(
 ```
 
 ## ggcoefstats
+Thi
 
 ```{r}
 mod <- lm(rating~mpaa, data = movies_long)
