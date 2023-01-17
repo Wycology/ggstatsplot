@@ -44,7 +44,7 @@ In this write-up, I am showing the usage of `ggstatsplot` for annotating statist
 
 ## ggbetweenstats
 
-This is creating boxplot when we have factor variable on x-axis and continuous variable on y-axis. 
+This is creating boxplot when we have factor variable on x-axis and continuous variable on y-axis. It is also
 
 ```{r}
 ggbetweenstats(data = movies_long, x = mpaa, y = rating)
