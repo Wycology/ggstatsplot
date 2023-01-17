@@ -57,7 +57,7 @@ ggbetweenstats(data = movies_long, x = mpaa, y = rating,
                type = 'np', pairwise.display = 'ns')
 ```
 
-or ev
+or eve
 
 ```{r}
 ggbetweenstats(data = movies_long, 
