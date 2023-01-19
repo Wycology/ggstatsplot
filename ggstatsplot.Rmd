@@ -38,7 +38,7 @@ knitr::write_bib(c(
 ), 'bib/packages.bib')
 ```
 
-# Pr Background
+# P Background
 
 In this write-up, I am showing the usage of `ggstatsplot` for annotating statistical values on ggplot graphics.
 
