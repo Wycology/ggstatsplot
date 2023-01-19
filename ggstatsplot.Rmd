@@ -38,7 +38,7 @@ knitr::write_bib(c(
 ), 'bib/packages.bib')
 ```
 
-# Project Background
+# Projec Background
 
 In this write-up, I am showing the usage of `ggstatsplot` for annotating statistical values on ggplot graphics.
 
@@ -57,7 +57,7 @@ ggbetweenstats(data = movies_long, x = mpaa, y = rating,
                type = 'np', pairwise.display = 'ns')
 ```
 
-or even bet
+or even better
 
 ```{r}
 ggbetweenstats(data = movies_long, 
