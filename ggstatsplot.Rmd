@@ -79,7 +79,7 @@ ggwithinstats(data = WRS2::WineTasting, Wine, Taste)
 
 ## gghistostats
 
-Showing statistics on histogram plot using 
+Showing statistics on histogram plot using ggstatsplot
 
 ```{r}
 gghistostats(data = movies_long, x = budget, test.value = 30)
