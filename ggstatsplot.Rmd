@@ -94,6 +94,8 @@ ggdotplotstats(movies_long,
 
 ## ggscatterstats
 
+This 
+
 ```{r}
 ggscatterstats(movies_long, budget, rating,
                type = 'r',
