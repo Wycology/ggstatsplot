@@ -94,7 +94,7 @@ ggdotplotstats(movies_long,
 
 ## ggscatterstats
 
-This plots scatter plots with bar
+This plots scatter plots with bar graphs
 
 ```{r}
 ggscatterstats(movies_long, budget, rating,
