@@ -94,7 +94,7 @@ ggdotplotstats(movies_long,
 
 ## ggscatterstats
 
-This plots scatter plots with histograms
+This plots scatter plots with marginal histograms
 
 ```{r}
 ggscatterstats(movies_long, budget, rating,
