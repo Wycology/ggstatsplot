@@ -94,7 +94,7 @@ ggdotplotstats(movies_long,
 
 ## ggscatterstats
 
-This 
+This plots
 
 ```{r}
 ggscatterstats(movies_long, budget, rating,
