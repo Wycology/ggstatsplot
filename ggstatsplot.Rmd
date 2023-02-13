@@ -40,7 +40,7 @@ knitr::write_bib(c(
 
 # Background
 
-In this write-up, I show the usag of `ggstatsplot` for annotating statistical values on ggplot graphics.
+In this write-up, I show the usa of `ggstatsplot` for annotating statistical values on ggplot graphics.
 
 ## ggbetweenstats
 
