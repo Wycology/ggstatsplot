@@ -158,7 +158,7 @@ grouped_ggpiestats(mtcars, x = cyl, grouping.var = am)
 
 ## ggbetweenstats customized
 
-The customi
+The customiza
 
 ```{r}
 ggbetweenstats(movies_long, 
