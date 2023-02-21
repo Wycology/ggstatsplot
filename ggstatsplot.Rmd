@@ -155,7 +155,8 @@ ggcoefstats(mod)
 ```{r}
 mtcars %>% grouped_ggpiestats( 
                    x = cyl, 
-                   grouping.var = am)
+                   grouping.var = am
+                   )
 ```
 
 ## ggbetweenstats customized
