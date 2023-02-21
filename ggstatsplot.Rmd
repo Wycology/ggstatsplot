@@ -165,7 +165,7 @@ mtcars %>%
 The customization makes it even clearer and even more informative
 
 ```{r}
-ggbetweenstats(movies_long, 
+movies_longggbetweenstats(, 
                mpaa, rating, 
               ggtheme = hrbrthemes::theme_ipsum_tw(),
               palettete = "Darjeeling2")
