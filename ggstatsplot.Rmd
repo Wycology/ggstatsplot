@@ -153,12 +153,13 @@ ggcoefstats(mod)
 ## grouped_ggpiestats
 
 ```{r}
-grouped_ggpiestats(mtcars, x = cyl, grouping.var = am)
+grouped_ggpiestats(mtcars, 
+                   x = cyl, grouping.var = am)
 ```
 
 ## ggbetweenstats customized
 
-The customization makes it even clearer and even more 
+The customization makes it even clearer and even more informative
 
 ```{r}
 ggbetweenstats(movies_long, 
