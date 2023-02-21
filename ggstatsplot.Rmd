@@ -153,7 +153,7 @@ ggcoefstats(mod)
 ## grouped_ggpiestats
 
 ```{r}
-grouped_ggpiestats(mtcars, 
+grouped_ggpiestats(, 
                    x = cyl, grouping.var = am)
 ```
 
