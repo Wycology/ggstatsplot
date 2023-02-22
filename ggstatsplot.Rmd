@@ -109,7 +109,9 @@ ggdotplotstats(movies_long,
 This plots scatter plots with marginal histograms and best line 
 
 ```{r}
-ggscatterstats(movies_long, budget, rating,
+ggscatterstats(movies_long, 
+               budget, 
+               rating,
                type = 'r',
                label.var = title, 
                label.expression = budget > 150 & rating > 7.5)
