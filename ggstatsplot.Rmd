@@ -91,7 +91,8 @@ Showing statistics on histogram plot using ggstatsplot. The plot also shows the 
 
 ```{r}
 gghistostats(data = movies_long, 
-             x = budget, test.value = 30)
+             x = budget, 
+             test.value = 30)
 ```
 
 ## ggdotplotstats
