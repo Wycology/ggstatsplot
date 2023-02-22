@@ -53,7 +53,8 @@ ggbetweenstats(data = movies_long, x = mpaa, y = rating)
 The plot can be improved to provide more information as follows:
 
 ```{r}
-ggbetweenstats(data = movies_long, x = mpaa, y = rating,
+ggbetweenstats(data = movies_long, 
+               x = mpaa, y = rating,
                type = 'np', pairwise.display = 'ns')
 ```
 
