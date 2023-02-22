@@ -79,7 +79,9 @@ ggbetweenstats(data = movies_long,
 The same can also be done for the `ggwithinstats` as follows:
 
 ```{r}
-ggwithinstats(data = WRS2::WineTasting, Wine, Taste)
+ggwithinstats(data = 
+                WRS2::WineTasting, 
+              Wine, Taste)
 ```
 
 ## gghistostats
