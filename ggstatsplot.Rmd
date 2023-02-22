@@ -99,7 +99,9 @@ gghistostats(data = movies_long,
 
 ```{r}
 ggdotplotstats(movies_long,
-               budget, genre, test.value = 30)
+               budget, 
+               genre, 
+               test.value = 30)
 ```
 
 ## ggscatterstats
