@@ -48,7 +48,8 @@ This is creating boxplot when we have factor variable on the x-axis and continuo
 
 ```{r}
 ggbetweenstats(data = movies_long, 
-               x = mpaa, y = rating)
+               x = mpaa, 
+               y = rating)
 ```
 
 The plot can be improved to provide more information as follows:
