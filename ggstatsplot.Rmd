@@ -90,7 +90,8 @@ ggwithinstats(data =
 Showing statistics on histogram plot using ggstatsplot. The plot also shows the proportion axis.
 
 ```{r}
-gghistostats(data = movies_long, x = budget, test.value = 30)
+gghistostats(data = movies_long, 
+             x = budget, test.value = 30)
 ```
 
 ## ggdotplotstats
