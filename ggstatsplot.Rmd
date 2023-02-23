@@ -61,8 +61,7 @@ or even better
 ggbetweenstats(data = movies_long, 
                x = mpaa, y = rating,
                type = 'r', pairwise.comparisons = FALSE,
-               outlier.tagging = TRUE,
-               outlier.label = title)
+               outlier.tagging = TRUE, outlier.label = title)
 ```
 
 ## ggwithinstats
