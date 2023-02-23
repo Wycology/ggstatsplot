@@ -45,8 +45,7 @@ In this write-up, I show the use of `ggstatsplot` for annotating statistical val
 This is creating box plot when we have factor variable on the x-axis and continuous variable on the y-axis. It is also showing violin plots as well as mean.
 
 ```{r}
-ggbetweenstats(data = movies_long, 
-               x = mpaa, 
+ggbetweenstats(data = movies_long, x = mpaa, 
                y = rating)
 ```
 
