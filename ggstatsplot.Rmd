@@ -59,10 +59,8 @@ or even better
 
 ```{r}
 ggbetweenstats(data = movies_long, 
-               x = mpaa, 
-               y = rating,
-               type = 'r', 
-               pairwise.comparisons = FALSE,
+               x = mpaa, y = rating,
+               type = 'r', pairwise.comparisons = FALSE,
                outlier.tagging = TRUE,
                outlier.label = title)
 ```
