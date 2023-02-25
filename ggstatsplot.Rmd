@@ -154,7 +154,8 @@ ggbarstats(
 This is plotting the coefficients of 
 
 ```{r}
-mod <- lm(rating~mpaa, data = movies_long)
+mod <- lm(rating~mpaa, 
+          data = movies_long)
 ggcoefstats(mod)
 ```
 
