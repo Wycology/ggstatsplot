@@ -173,8 +173,8 @@ mtcars %>%
 The customization makes it even clearer and even more informative
 
 ```{r}
-movies_long %>% ggbetweenstats( 
-               mpaa, rating, 
+movies_long %>% 
+  ggbetweenstats(mpaa, rating, 
               ggtheme = hrbrthemes::theme_ipsum_tw(),
               palettete = "Darjeeling2")
 ```
