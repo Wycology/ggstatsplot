@@ -79,7 +79,7 @@ ggwithinstats(data = WRS2::WineTasting,
 
 ## gghistostats
 
-Showing statistics on histogram plot using `ggstatsplot. The plot also shows the proportion axis.
+Showing statistics on histogram plot using `ggstatsplot`. The plot also shows the proportion axis.
 
 ```{r}
 gghistostats(data = movies_long, 
