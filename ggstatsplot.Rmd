@@ -98,7 +98,7 @@ ggdotplotstats(movies_long,
 
 ## ggscatterstats
 
-This plots scatter plot with marginal histograms and best line 
+This plots scatter plot with marginal histograms and best line o
 
 ```{r}
 ggscatterstats(movies_long, 
