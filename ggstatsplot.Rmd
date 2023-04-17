@@ -111,6 +111,8 @@ ggscatterstats(movies_long,
 
 ## ggcorrmat
 
+This is useful
+
 ```{r}
 ggcorrmat(dplyr::starwars, 
           type = 'bayes', 
