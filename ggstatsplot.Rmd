@@ -111,7 +111,7 @@ ggscatterstats(movies_long,
 
 ## ggcorrmat
 
-This is useful in generating correlation matrix
+This is useful in generating correlation matrix.
 
 ```{r}
 ggcorrmat(dplyr::starwars, 
