@@ -111,7 +111,7 @@ ggscatterstats(movies_long,
 
 ## ggcorrmat
 
-This is useful in 
+This is useful in gen
 
 ```{r}
 ggcorrmat(dplyr::starwars, 
